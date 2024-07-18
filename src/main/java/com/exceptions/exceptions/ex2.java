@@ -12,7 +12,7 @@ public class ex2 {
             System.out.println("Menu:");
             System.out.println("1 - Opção 1");
             System.out.println("2 - Opção 2");
-            System.out.println("3 - Opção 2");
+            System.out.println("3 - Opção 3");
             System.out.println("4 - Sair");
             System.out.print("Escolha uma opção: ");
 
@@ -37,12 +37,12 @@ public class ex2 {
                         scanner.close();
                         return;
                     default:
-                        System.out.println("Opção inválida. Digite um número entre 1 e 3.");
+                        System.out.println("Opção inválida. Digite um número entre 1 e 4.");
                         scanner.close();
                         return;
                 }
             } else {
-                System.out.println("Entrada inválida. Digite um número inteiro.");
+                System.out.println("Entrada inválida. Digite um número.");
                 return;
             }
         }
